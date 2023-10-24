@@ -1,0 +1,22 @@
+{{#each this}}
+<div class="post">
+<h2>{{title}}</h2>
+<p>{{text}}</p>
+<button class="editPostButton" data-id="{{id}}">Редагувати</button>
+<button class="deletePostButton" data-id="{{id}}">Видалити</button>
+<div class="commentsContainer" data-id="{{id}}">
+<form class="createCommentForm">
+<input type="text" class="commentInput" data-id="{{id}}" placeholder="Новий коментар" required>
+<button class="buttcomm" type="submit" data-id="{{id}}">Додати коментар</button>
+</form>
+<h3>Коментарі:</h3>
+<ul>
+{{#each comments}}
+{{#each this.comments}}
+<li>{{this}}</li>
+{{/each}}
+{{/each}}
+</ul>
+</div>
+</div>
+{{/each}}
