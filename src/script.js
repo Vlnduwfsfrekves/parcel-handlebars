@@ -1,11 +1,11 @@
 // import axios from "axios"
 import postTpl from './posts.handlebars'
-const BASE_URL = 'http://localhost:4040/'
+const BASE_URL = 'http://localhost:3000/'
 let postBoxEl = document.getElementById("postsContainer")
 const formEl = document.getElementById('createPostForm')
 async function getPosts(){
   try{
-    let posts=await fetch(`http://localhost:4040/posts`).then(resp => resp.json())
+    let posts=await fetch(`http://localhost:3000/posts`).then(resp => resp.json())
     return posts
   }catch(error){
     throw new Error(error)

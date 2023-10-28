@@ -2,24 +2,22 @@
   "name": "parcel-handlebars",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Vlnduwfsfrekves.github.io/parcel-handlebars",
+  "homepage": "https://IrynaSokolova-Quanandrya.github.io/parcel-handlebars",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-handlebars/",
-    "server":"json-server --watch db.json"
+    "build": "parcel build src/*.html --public-url /parcel-handlebars/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vlnduwfsfrekves/parcel-handlebars.git"
+    "url": "git+https://github.com/IrynaSokolova-Quanandrya/parcel-handlebars.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vlnduwfsfrekves/parcel-handlebars/issues"
+    "url": "https://github.com/IrynaSokolova-Quanandrya/parcel-handlebars/issues"
   },
   "dependencies": {
-    "json-server": "^0.17.4",
     "modern-normalize": "^1.1.0",
     "parcel-transformer-hbs": "^1.0.4"
   },
